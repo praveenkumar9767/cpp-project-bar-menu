@@ -1,0 +1,162 @@
+#include<iostream>
+using namespace std;
+int main()
+{
+ 
+ char barmenu;
+ cout<< " menu                     10ml  20ml  30ml     drink code"<< endl;
+ 
+ cout<<"1)Old Fashioned         500rs  600rs  700rs     1"<< endl;
+ cout<<"2)Margarita             600rs  700rs  800rs     2"<< endl;
+ cout<<"3)Cosmopolitan          300rs  400rs  500rs     3"<< endl;
+ cout<<"4)Negroni               700rs  800rs  900rs     4"<< endl;
+ cout<<"5)Moscow Mule           800rs  850rs  900rs     5"<< endl;
+ cout<<"6)Martini               700rs  800rs  900rs     6"<<endl;
+ cout<<"7)old monk              400rs  500rs  700rs     7"<<endl;
+ cout<<"8)rockford              300rs  400rs  500rs     8"<<endl;
+ cout<<"9)black cat             800rs  900rs  980rs     9"<<endl;
+ cout<<"10)imperial blue        200rs  300rs  400rs     0"<<endl;
+ 
+ 
+ 
+ 
+ 
+ cout<<".....................enter your favourite drink......................"<< endl; 
+ cin>> barmenu;
+ switch(barmenu){
+     case '1':
+     cout<< " Its great you select ||Old Fashioned drink||"<<endl;
+     
+     char ice;
+     cout<<"That you would like to have your drink with ice y/n"<< endl;
+     cin>> ice;
+     if(ice == 'y'){
+         cout<<"your drink is ready with ice "<< endl;
+     }  
+     else{
+         cout<< " your drink is ready without ice"<<endl;
+     }
+     break;
+     case '2':
+     cout<< " Its great you select ||margarita||"<<endl;
+     char ice1;
+     cout<<"That you would like to have your drink with ice y/n"<< endl;
+     cin>> ice1;
+     if(ice == 'y'){
+         cout<<"your drink is ready with ice "<< endl;
+     }  
+     else{
+         cout<< " your drink is ready without ice"<<endl;
+     }
+     break;
+     case '3':
+     cout<< " Its great you select ||cosmopolitan||"<<endl;
+     char ice2;
+     cout<<"That you would like to have your drink with ice y/n"<< endl;
+     cin>> ice2;
+     if(ice == 'y'){
+         cout<<"your drink is ready with ice "<< endl;
+     }  
+     else{
+         cout<< " your drink is ready without ice"<<endl;
+     }
+     break;
+     case '4':
+     cout<< " Its great you select ||negroni||"<<endl;
+     char ice3;
+     cout<<"That you would like to have your drink with ice y/n"<< endl;
+     cin>> ice3;
+     if(ice == 'y'){
+         cout<<"your drink is ready with ice "<< endl;
+     }  
+     else{
+         cout<< " your drink is ready without ice"<<endl;
+     }
+     break;
+     case '5':
+     cout<< " Its great you select ||moscow mule||"<<endl;
+     char ice4;
+     cout<<"That you would like to have your drink with ice y/n"<< endl;
+     cin>> ice4;
+     if(ice == 'y'){
+         cout<<"your drink is ready with ice "<< endl;
+     }  
+     else{
+         cout<< " your drink is ready without ice"<<endl;
+     }
+     break;
+     case '6':
+     cout<< " Its great you select ||martina||"<<endl;
+     char ice5;
+     cout<<"That you would like to have your drink with ice y/n"<< endl;
+     cin>> ice5;
+     if(ice == 'y'){
+         cout<<"your drink is ready with ice "<< endl;
+     }  
+     else{
+         cout<< " your drink is ready without ice"<<endl;
+     }
+     break;
+     case '7':
+     cout<< " Its great you select ||Old monk||"<<endl;
+     char ice6;
+     cout<<"That you would like to have your drink with ice y/n"<< endl;
+     cin>> ice6;
+     if(ice == 'y'){
+         cout<<"your drink is ready with ice "<< endl;
+     }  
+     else{
+         cout<< " your drink is ready without ice"<<endl;
+     }
+     break;
+     case '8':
+     cout<< " Its great you select || rockford||"<<endl;
+     char ice7;
+     cout<<"That you would like to have your drink with ice y/n"<< endl;
+     cin>> ice7;
+     if(ice == 'y'){
+         cout<<"your drink is ready with ice "<< endl;
+     }  
+     else{
+         cout<< " your drink is ready without ice"<<endl;
+     }
+     break;
+     case '9':
+     cout<< " Its great you select ||black cat||"<<endl;
+     char ice8;
+     cout<<"That you would like to have your drink with ice y/n"<< endl;
+     cin>> ice8;
+     if(ice == 'y'){
+         cout<<"your drink is ready with ice "<< endl;
+     }  
+     else{
+         cout<< " your drink is ready without ice"<<endl;
+     }
+     break;
+     case '0':
+     cout<< " Its great you select ||imperial blue||"<<endl;
+     char ice9;
+     cout<<"That you would like to have your drink with ice y/n"<< endl;
+     cin>> ice9;
+     if(ice == 'y'){
+         cout<<"your drink is ready with ice "<< endl;
+     }  
+     else{
+         cout<< " your drink is ready without ice"<<endl;
+     }
+     
+     
+     
+     
+     
+     
+     
+     
+         
+     
+     
+ 
+ }
+ 
+ 
+}
